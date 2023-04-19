@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Contractor समुदाय</string>
+    <string name="otptext">We will send you an one time otp on this given mobile number</string>
 </resources>

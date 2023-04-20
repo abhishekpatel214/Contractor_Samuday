@@ -65,6 +65,7 @@
             android:letterSpacing="0.2"
             android:maxLength="6"
             android:hint="123456"
+            android:background="@android:color/transparent"
             android:textColor="@color/black"
             android:textColorHint="@color/black"/>
 

@@ -59,6 +59,7 @@
         android:layout_marginTop="30dp">
         
         <EditText
+            android:id="@+id/otpenter"
             android:layout_width="150dp"
             android:layout_height="56dp"
             android:textSize="28sp"
@@ -71,9 +72,37 @@
 
 
     </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Did't Receive the OTP"
+            android:textColor="@color/textsecond"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESEND OTP AGAIN"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
 
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitotp"
         android:layout_marginTop="30dp"
         android:layout_width="180dp"
         android:layout_height="50dp"

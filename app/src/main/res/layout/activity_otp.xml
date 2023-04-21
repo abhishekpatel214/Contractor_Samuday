@@ -44,6 +44,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="15sp"
+        android:layout_marginBottom="15dp"
        />
 
     <LinearLayout
@@ -64,6 +65,7 @@
         android:textStyle="bold"/>
 
         <EditText
+            android:id="@+id/enternumber"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:background="@android:color/transparent"
@@ -78,6 +80,7 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getotp"
         android:layout_marginTop="30dp"
         android:layout_width="180dp"
         android:layout_height="50dp"

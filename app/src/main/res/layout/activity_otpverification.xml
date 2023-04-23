@@ -88,7 +88,9 @@
             android:textSize="16sp"
             />
 
-        <TextView
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/resentotp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RESEND OTP AGAIN"
@@ -96,7 +98,9 @@
             android:textStyle="bold"
             android:layout_marginStart="5dp"
             android:textSize="18sp"
+            android:background="@android:color/transparent"
             />
+
 
     </LinearLayout>
 

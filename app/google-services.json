@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "377193122407",
+    "project_id": "contractor-samudaay",
+    "storage_bucket": "contractor-samudaay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377193122407:android:81d0ccff8e07640aaa62c2",
+        "android_client_info": {
+          "package_name": "com.example.contractor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377193122407-kp4uckm7q1u6kr9k9evop6ns4njoomb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTgp_BOrCLCUH_fYfl-_Rj8mp2mH5kg8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377193122407-kp4uckm7q1u6kr9k9evop6ns4njoomb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

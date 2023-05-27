@@ -105,8 +105,8 @@
 
 
             <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/addsidebtn"
-                android:src="@drawable/addside"
+                android:id="@+id/addworkerbtn"
+                android:src="@drawable/addworker"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:layout_width="110dp"
@@ -120,7 +120,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Add New SIDE"
+                android:text="Add Workers"
                 android:textStyle="bold"
                 android:textColor="@color/yellow"
                 android:textSize="20sp"/>
@@ -136,8 +136,8 @@
 
 
             <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/addsidebtn"
-                android:src="@drawable/addside"
+                android:id="@+id/atandancebtn"
+                android:src="@drawable/atendance"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:layout_width="110dp"
@@ -151,7 +151,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Add New SIDE"
+                android:textAlignment="center"
+                android:text="Attandance"
                 android:textStyle="bold"
                 android:textColor="@color/yellow"
                 android:textSize="20sp"/>

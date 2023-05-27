@@ -14,16 +14,18 @@
         <activity
             android:name=".activity_enter_profile"
             android:exported="true">
-        </activity>
-        <activity
-            android:name=".activity_dash_board"
-            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".activity_dash_board"
+            android:exported="true">
+
 
         </activity>
         <activity

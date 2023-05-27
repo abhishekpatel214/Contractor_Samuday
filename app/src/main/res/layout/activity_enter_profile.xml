@@ -3,21 +3,179 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".activity_enter_profile">
+android:layout_width="match_parent"
+android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_vertical">
-        
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+android:background="@color/white"
+tools:context=".activity_enter_profile">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/yellow"
+            android:elevation="4dp"
+            app:title="Add Profile"
+            android:layout_margin="0dp"
+            app:titleTextColor="@android:color/white" />
+
+<ImageView
+    android:id="@+id/profile_image"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/avtaarpic"
+    android:contentDescription="Profile Image"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp" />
+
+<Button
+    android:id="@+id/upload_profile_image_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Upload Profile Image"
+    android:background="@drawable/button_background"
+    android:textColor="@android:color/white"
+    android:textAllCaps="false"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/mobile_number_editText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Mobile Number"
+    android:textColorHint="@android:color/black"
+    android:inputType="phone"
+    android:textColor="@android:color/black"
+    android:background="@drawable/edit_text_background"
+    android:padding="8dp"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/full_name_editText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Full Name"
+    android:textColorHint="@android:color/black"
+    android:textColor="@android:color/black"
+    android:inputType="textPersonName"
+    android:background="@drawable/edit_text_background"
+    android:padding="8dp"
+    android:layout_marginBottom="16dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/aadhaar_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/avtaarpic"
+        android:contentDescription="Aadhaar Image"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/upload_aadhaar_button"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Upload Aadhaar"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_marginRight="8dp" />
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/pan_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/avtaarpic"
+        android:contentDescription="PAN Image"
+        android:layout_margin="0"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/upload_pan_button"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Upload PAN"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false" />
+
+
+
+</LinearLayout>
+
+<EditText
+    android:layout_marginTop="10dp"
+    android:id="@+id/bank_account_number_editText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Bank Account Number"
+    android:textColorHint="@android:color/black"
+    android:textColor="@android:color/black"
+    android:inputType="number"
+    android:background="@drawable/edit_text_background"
+    android:padding="8dp"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/ifsc_code_editText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="IFSC Code"
+    android:textColorHint="@android:color/black"
+    android:textColor="@android:color/black"
+    android:inputType="text"
+    android:background="@drawable/edit_text_background"
+    android:padding="8dp"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/upi_id_editText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/black"
+    android:hint="UPI ID"
+    android:textColorHint="@android:color/black"
+    android:inputType="textEmailAddress"
+    android:background="@drawable/edit_text_background"
+    android:padding="8dp"
+    android:layout_marginBottom="16dp" />
+
+<Button
+    android:id="@+id/save_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Save"
+    android:background="@drawable/button_background"
+    android:textColor="@android:color/white"
+    android:textAllCaps="false" />
     </LinearLayout>
 
 </ScrollView>

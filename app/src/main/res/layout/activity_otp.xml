@@ -1,94 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/white"
-    android:gravity="center_horizontal"
-    tools:context=".activity_otp">
+    tools:context=".activity_OTP">
 
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/smssend"
-        android:layout_marginTop="80dp"/>
-
-    <TextView
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:text="OTP Verification"
-        android:textAlignment="center"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/otptext"
-        android:layout_marginTop="10dp"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Enter Your Number"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        android:layout_marginBottom="15dp"
-       />
 
     <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginEnd="60dp"
-        android:gravity="center"
-        android:background="@drawable/editboxborder"
-        android:orientation="horizontal" >
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:text="+91"
-        android:textColor="@color/black"
-        android:textSize="28dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        tools:context=".activity_otp">
 
-        android:textStyle="bold"/>
 
-        <EditText
-            android:id="@+id/enternumber"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:background="@android:color/transparent"
-            android:hint="8758704414"
-            android:maxLength="10"
-            android:textColor="@color/black"
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/smssend"
+            android:layout_marginTop="80dp"/>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="OTP Verification"
+            android:textAlignment="center"
+            android:textSize="22sp"
             android:textStyle="bold"
-            android:textSize="28sp"
-            android:importantForAutofill="auto"
-            android:inputType="phone"/>
-    
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/otptext"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Enter Your Number"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:gravity="center"
+            android:background="@drawable/editboxborder"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="+91"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/enternumber"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:hint="8758704414"
+                android:maxLength="10"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:importantForAutofill="auto"
+                android:inputType="phone"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/getotp"
+            android:layout_marginTop="30dp"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="GET OTP"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:background="#FFB13E"/>
+
     </LinearLayout>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/getotp"
-        android:layout_marginTop="30dp"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:text="GET OTP"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:background="#FFB13E"/>
 
-</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

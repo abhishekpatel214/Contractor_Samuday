@@ -8,34 +8,25 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Contractorसमुदाय"
+        android:theme="@style/Theme.Contractor_Samudaay"
         tools:targetApi="31">
         <activity
-            android:name=".activity_enter_profile"
-            android:exported="true">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
+            android:name=".activity_Site"
+            android:exported="true" />
         <activity
-            android:name=".activity_dash_board"
-            android:exported="true">
-
-
-        </activity>
+            android:name=".dashboard"
+            android:exported="true" />
         <activity
-            android:name=".activity_otpverification"
-            android:exported="true">
-        </activity>
+            android:name=".add_Workerpage"
+            android:exported="true" />
         <activity
-            android:name=".activity_otp"
-            android:exported="true">
-        </activity>
+            android:name=".activity_otpVerify"
+            android:exported="false" />
+        <activity
+            android:name=".activity_OTP"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

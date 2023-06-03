@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "377193122407",
-    "project_id": "contractor-samudaay",
-    "storage_bucket": "contractor-samudaay.appspot.com"
+    "project_number": "141789079537",
+    "project_id": "contractor-samudaay-fdc9e",
+    "storage_bucket": "contractor-samudaay-fdc9e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:377193122407:android:9ed67d43f944b642aa62c2",
+        "mobilesdk_app_id": "1:141789079537:android:ce7affc7337a7b09924650",
         "android_client_info": {
-          "package_name": "com.example.contractor"
+          "package_name": "com.example.contractor_samudaay"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "377193122407-kp4uckm7q1u6kr9k9evop6ns4njoomb7.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBTgp_BOrCLCUH_fYfl-_Rj8mp2mH5kg8E"
+          "current_key": "AIzaSyCssNpwKMV25KvzmsjbiyVudjFOIKXM5OM"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "377193122407-kp4uckm7q1u6kr9k9evop6ns4njoomb7.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_Site">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/contrac"
+            android:contentDescription="Profile Image"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/upload_profile_image_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Site Image"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/full_name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Site Name"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:inputType="textPersonName"
+            android:background="@drawable/edit_text_background"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/mobile_number_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Site Address"
+            android:textColorHint="@android:color/black"
+            android:inputType="phone"
+            android:textColor="@android:color/black"
+            android:background="@drawable/edit_text_background"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/yellow_baground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select SuperVisor for The Site"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/contrac"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rohan Sharma"
+            android:layout_marginStart="15dp"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+            android:id="@+id/supervisor_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox_custom"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/contrac"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rohan Sharma"
+            android:layout_marginStart="15dp"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"/>
+
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox_custom"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/yellow_baground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Workers for The Site"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/contrac"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rohan Sharma"
+                android:layout_marginStart="15dp"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox_custom"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
